@@ -45,12 +45,15 @@
       padding: 2rem;
     }
     .category {
+      display: block;
       background: white;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       padding: 1rem;
       text-align: center;
       width: 200px;
+      text-decoration: none;
+      color: inherit;
     }
     .form-section {
       background: #ffe6cc;
@@ -91,8 +94,11 @@
   <header>
     <h1>Peanut Crafts & Gifting Happiness</h1>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#categories">Shop</a>
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="greeting_cards.html">Greeting Cards</a>
+      <a href="bookmarks.html">Bookmarks</a>
+      <a href="journals.html">Journals</a>
       <a href="#order">Place Order</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -104,27 +110,27 @@
   </section>
 
   <section class="categories" id="categories">
-    <div class="category">
+    <a class="category" href="books.html">
       <h3>Books</h3>
       <p>Hand-picked reads and inspiring notebooks.</p>
-    </div>
-    <div class="category">
+    </a>
+    <a class="category" href="greeting_cards.html">
       <h3>Greeting Cards</h3>
       <p>Wholesome wishes for every moment.</p>
-    </div>
-    <div class="category">
+    </a>
+    <a class="category" href="bookmarks.html">
       <h3>Bookmarks</h3>
       <p>Keep your place in style.</p>
-    </div>
-    <div class="category">
+    </a>
+    <a class="category" href="journals.html">
       <h3>Journals</h3>
       <p>Personalize your thoughts in printed form.</p>
-    </div>
+    </a>
   </section>
 
   <section class="form-section" id="order">
     <h2>Place Your Order</h2>
-    <form action="mailto:your@email.com" method="POST" enctype="text/plain">
+    <form action="mailto:nirmalstarlit@gmail.com" method="POST" enctype="text/plain">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="orderDetails" rows="4" placeholder="What would you like to order?" required></textarea>
@@ -133,7 +139,7 @@
   </section>
 
   <footer id="contact">
-    <p>Contact us at peanutcrafts@email.com | Hyderabad, India</p>
+    <p>Contact us at nirmalstarlit@gmail.com | Hyderabad, India</p>
     <p>&copy; 2025 Peanut Crafts & Gifting Happiness</p>
   </footer>
 </body>

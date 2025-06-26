@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peanut Crafts & Gifting Happiness</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" />
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff7f0;
+      color: #333;
+    }
+    header {
+      background-color: #ff914d;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero h1 {
+      color: #ff6b00;
+    }
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .category {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      width: 200px;
+    }
+    .form-section {
+      background: #ffe6cc;
+      padding: 2rem;
+      text-align: center;
+    }
+    .form-section form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #ff914d;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #ff914d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Peanut Crafts & Gifting Happiness</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#categories">Shop</a>
+      <a href="#order">Place Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Welcome to Peanut Crafts</h1>
+    <p>Discover beautiful stationery for your soul and gifts that make others smile.</p>
+  </section>
+
+  <section class="categories" id="categories">
+    <div class="category">
+      <h3>Books</h3>
+      <p>Hand-picked reads and inspiring notebooks.</p>
+    </div>
+    <div class="category">
+      <h3>Greeting Cards</h3>
+      <p>Wholesome wishes for every moment.</p>
+    </div>
+    <div class="category">
+      <h3>Bookmarks</h3>
+      <p>Keep your place in style.</p>
+    </div>
+    <div class="category">
+      <h3>Journals</h3>
+      <p>Personalize your thoughts in printed form.</p>
+    </div>
+  </section>
+
+  <section class="form-section" id="order">
+    <h2>Place Your Order</h2>
+    <form action="mailto:your@email.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="orderDetails" rows="4" placeholder="What would you like to order?" required></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at peanutcrafts@email.com | Hyderabad, India</p>
+    <p>&copy; 2025 Peanut Crafts & Gifting Happiness</p>
+  </footer>
+</body>
+</html>
